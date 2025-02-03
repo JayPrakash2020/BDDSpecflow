@@ -97,7 +97,10 @@ namespace ESchool.Automation.UI.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Adding Library Book Details")]
         [NUnit.Framework.CategoryAttribute("utw")]
-        [NUnit.Framework.TestCaseAttribute("One", "CSharp", "JayPrakash", "UTW", null)]
+        [NUnit.Framework.TestCaseAttribute("Ten", "CSharp with Basic", "Jay Prakash", "UTW", null)]
+        [NUnit.Framework.TestCaseAttribute("Ten", "CSharp", "JayPrakash", "Udesha Technology", null)]
+        [NUnit.Framework.TestCaseAttribute("Ten", "Java", "JayPrakash", "Udesha Technology", null)]
+        [NUnit.Framework.TestCaseAttribute("Ten", "Selenium with CSharp", "Jay Prakash Pathak", "Udesha Technology", null)]
         public virtual void AddingLibraryBookDetails(string @class, string bookName, string author, string publication, string[] exampleTags)
         {
             string[] @__tags = new string[] {

@@ -55,7 +55,7 @@ namespace ESchool.Automation.UI.PageObject
         public void SelectSubject()
         {
             SelectElement ele = new SelectElement(driver.FindElement(By.XPath(selectsubxpath)));
-            ele.SelectByText("Math");
+            ele.SelectByText("Computer Science");
         }
         public void AddBookName(string bookname)
         {

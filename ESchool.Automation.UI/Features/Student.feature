@@ -18,4 +18,7 @@ Scenario Outline: Adding Library Book Details
 	When I click on Save Button
 	Examples: 
 	| class   | BookName | Author | Publication | 
-	| One | CSharp  | JayPrakash |UTW | 
+	| Ten | CSharp with Basic | Jay Prakash |UTW | 
+	| Ten | CSharp  | JayPrakash |Udesha Technology | 
+	| Ten | Java  | JayPrakash |Udesha Technology | 
+	| Ten | Selenium with CSharp| Jay Prakash Pathak |Udesha Technology | 
