@@ -15,6 +15,7 @@ namespace ESchool.Automation.UI.Support
         public static ExtentReports extentReports;
         public static ExtentTest _feature;
         public static ExtentTest _scenario;
+        public static ExtentTest test;
 
         public static string dirpath= Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
         

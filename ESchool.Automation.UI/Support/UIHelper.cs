@@ -17,14 +17,15 @@ namespace UTW.Autoamtion.Core.UI.Utility
 {
     public class UIHelper
     {
-        protected  IWebElement webElement,WebElement2;
-        public IWebDriver driver=null;
+        protected IWebElement webElement, WebElement2;
+        public IWebDriver driver { get; }
         protected WebDriverWait wait;
         protected Actions actions;
-        public UIHelper()
+        public UIHelper(IWebDriver driver)
         {
-           // this.driver = driver;
+            this.driver = driver;
         }
+
 
         #region UIWebMethod Handler
         public IWebElement FindWebElementByXpath(string xpath)
